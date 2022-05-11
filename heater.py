@@ -8,7 +8,7 @@ GPIO.setup(12, GPIO.OUT)
 from w1thermsensor import W1ThermSensor
 sensor = W1ThermSensor()
 
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved
 # SPDX-License-Identifier: Apache-2.0.
 
 import argparse
