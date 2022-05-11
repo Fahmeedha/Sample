@@ -10,6 +10,9 @@ sensor = W1ThermSensor()
 
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved
 # SPDX-License-Identifier: Apache-2.0.
+#This is the new comment
+
+h
 
 import argparse
 from awscrt import io, mqtt, auth, http
