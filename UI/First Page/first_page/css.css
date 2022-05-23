@@ -1,0 +1,84 @@
+.title{
+    font-family: sans-serif;
+    
+    text-align: center;
+}
+
+.tabContainer{ 
+    width: 100%; 
+    position: relative; 
+}
+
+.tabContainer .buttonContainer button{
+  
+    height:50px;
+    width:280px;
+    cursor: pointer;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    margin: 25px;
+    border-radius: 12px;
+}
+.buttonContainer{
+    margin-top: 50%;
+    margin-left: -40px;
+}
+img{
+    margin-left: 20px;
+    margin-top:40px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding:18%;
+}
+.container { 
+    width: 80%; 
+    margin: 0 auto; 
+    float:left;
+    height: 100vh; 
+}
+.left {
+     width: 20%;
+     height: 100vh; 
+     float:left;
+     background-color: #1B669C;
+    }
+
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .tabPanel{
+    height: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: none;
+}
+.List_btn, .group_btn{
+    width: 136px;
+    height:44px;
+    
+    color: rgb(55, 55, 57);
+    border-radius: 30px;
+    left: 1240px;
+    top: 99px;
+    padding: 10px;
+    display:inline-block;
+    
+    font-weight: 70px;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    box-align:center;
+    background: white;
+    text-decoration:none;
+    
+}

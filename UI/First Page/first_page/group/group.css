@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: white;
+    margin: 20px;
+  }
+  .blue_container{ 
+    background-color: #1B669C;
+    width: 100%;
+    height:15vh;
+}
+
+.btn_create{
+    background: orange;
+    margin-right:20px;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+  }
+  .group-title{
+    margin-bottom:100px;
+    text-align: center;
+    color: #1b374b;
+  }
+  .new_user{
+    padding: 30px;
+  }
+
+  .btn_create{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: Black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+  }
+  button[type="submit"]:hover {
+    background-color: #FB8F53;
+    ;
+  } 
